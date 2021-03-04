@@ -11,12 +11,7 @@
   "scripts": {
     "build": "lerna bootstrap & lerna run build",
     "test": "lerna run test",
-<<<<<<< Updated upstream
-    "make": "lerna run build && lerna publish --yes --cd-version patch & git add . & git commit -m Version-bump & git push ",
-    "make-feature": "lerna run build && lerna publish --yes --cd-version minor & git add . & git commit -m Version-bump & git push "
-=======
     "make": "lerna run build && lerna publish --yes --cd-version patch",
     "make-feature": "lerna run build && lerna publish --yes --cd-version minor"
->>>>>>> Stashed changes
   }
 }
