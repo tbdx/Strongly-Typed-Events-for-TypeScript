@@ -6,7 +6,7 @@
  * Copyright Kees C. Bakker / KeesTalksTech
  * Released under the MIT license
  */
-var m = require("strongly-typed-events");
+var m = require("@tobydux/strongly-typed-events");
 var expose = require("./expose");
 
 expose({

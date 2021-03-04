@@ -4,7 +4,7 @@ import {
     DispatchError,
     IPropagationStatus,
     PromiseDispatcherBase,
-} from "ste-core";
+} from "@tobydux/ste-core";
 
 /**
  * Dispatcher implementation for events. Can be used to subscribe, unsubscribe

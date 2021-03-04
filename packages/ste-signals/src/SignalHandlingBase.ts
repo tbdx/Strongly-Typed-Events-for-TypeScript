@@ -1,5 +1,5 @@
 import { SignalDispatcher } from './SignalDispatcher';
-import { HandlingBase } from 'ste-core';
+import { HandlingBase } from '@tobydux/ste-core';
 
 import { ISignalHandling } from "./ISignalHandling";
 import { ISignalHandler } from "./ISignalHandler";

@@ -1,4 +1,4 @@
-import { DispatchError, IPropagationStatus, PromiseDispatcherBase } from "ste-core";
+import { DispatchError, IPropagationStatus, PromiseDispatcherBase } from "@tobydux/ste-core";
 import { IPromiseSimpleEventHandler } from "./IPromiseSimpleEventHandler";
 import { IPromiseSimpleEvent } from "./IPromiseSimpleEvent";
 

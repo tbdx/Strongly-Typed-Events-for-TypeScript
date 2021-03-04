@@ -1,4 +1,4 @@
-import { EventListBase } from "ste-core";
+import { EventListBase } from "@tobydux/ste-core";
 import { SimpleEventDispatcher } from "./SimpleEventDispatcher";
 
 /**

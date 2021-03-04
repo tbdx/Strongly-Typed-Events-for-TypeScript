@@ -1,4 +1,4 @@
-import { ISubscribable } from "ste-core";
+import { ISubscribable } from "@tobydux/ste-core";
 import { ISimpleEventHandler } from "./ISimpleEventHandler";
 
 /**

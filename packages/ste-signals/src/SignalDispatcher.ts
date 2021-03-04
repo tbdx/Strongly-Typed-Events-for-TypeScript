@@ -1,4 +1,4 @@
-import { DispatcherBase, IPropagationStatus, DispatchError } from "ste-core";
+import { DispatcherBase, IPropagationStatus, DispatchError } from "@tobydux/ste-core";
 import { ISignal } from "./ISignal";
 import { ISignalHandler } from "./ISignalHandler";
 

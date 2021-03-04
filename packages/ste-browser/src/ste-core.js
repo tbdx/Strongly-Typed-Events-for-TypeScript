@@ -6,7 +6,7 @@
  * Copyright Kees C. Bakker / KeesTalksTech
  * Released under the MIT license
  */
-var m = require("ste-core");
+var m = require("@tobydux/ste-core");
 var expose = require("./expose");
 
 expose({

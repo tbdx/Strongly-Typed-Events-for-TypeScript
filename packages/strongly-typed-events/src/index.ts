@@ -22,7 +22,7 @@ export {
     ISubscription,
     PromiseDispatcherBase,
     HandlingBase,
-} from "ste-core";
+} from "@tobydux/ste-core";
 
 export {
     EventDispatcher,
@@ -32,7 +32,7 @@ export {
     IEventHandling,
     IEvent,
     IEventHandler,
-} from "ste-events";
+} from "@tobydux/ste-events";
 
 export {
     SimpleEventDispatcher,
@@ -42,7 +42,7 @@ export {
     ISimpleEventHandling,
     ISimpleEvent,
     ISimpleEventHandler,
-} from "ste-simple-events";
+} from "@tobydux/ste-simple-events";
 
 export {
     SignalDispatcher,
@@ -51,7 +51,7 @@ export {
     ISignalHandling,
     ISignal,
     ISignalHandler,
-} from "ste-signals";
+} from "@tobydux/ste-signals";
 
 export {
     IPromiseEventHandler,
@@ -61,7 +61,7 @@ export {
     PromiseEventHandlingBase,
     PromiseEventList,
     NonUniformPromiseEventList,
-} from "ste-promise-events";
+} from "@tobydux/ste-promise-events";
 
 export {
     IPromiseSignalHandling,
@@ -70,7 +70,7 @@ export {
     PromiseSignalDispatcher,
     PromiseSignalHandlingBase,
     PromiseSignalList,
-} from "ste-promise-signals";
+} from "@tobydux/ste-promise-signals";
 
 export {
     PromiseSimpleEventDispatcher,
@@ -80,4 +80,4 @@ export {
     IPromiseSimpleEvent,
     IPromiseSimpleEventHandler,
     IPromiseSimpleEventHandling,
-} from "ste-promise-simple-events";
+} from "@tobydux/ste-promise-simple-events";

@@ -1,4 +1,4 @@
-import { HandlingBase } from "ste-core";
+import { HandlingBase } from "@tobydux/ste-core";
 import { PromiseSignalDispatcher } from ".";
 import { IPromiseSignalHandler } from "./IPromiseSignalHandler";
 import { IPromiseSignalHandling } from "./IPromiseSignalHandling";

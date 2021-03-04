@@ -1,4 +1,4 @@
-import { HandlingBase } from "ste-core";
+import { HandlingBase } from "@tobydux/ste-core";
 import { ISimpleEventHandling } from "./ISimpleEventHandling";
 import { ISimpleEventHandler } from "./ISimpleEventHandler";
 import { SimpleEventList } from "./SimpleEventList";

@@ -7,8 +7,8 @@
  * Released under the MIT license
  */
 
-var c = require("ste-core");
-var m = require("ste-events");
+var c = require("@tobydux/ste-core");
+var m = require("@tobydux/ste-events");
 
 var expose = require("./expose"); 
 

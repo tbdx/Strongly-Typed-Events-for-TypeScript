@@ -1,5 +1,5 @@
 
-import { HandlingBase } from "ste-core"
+import { HandlingBase } from "@tobydux/ste-core"
 import { IPromiseEventHandling } from "./IPromiseEventHandling";
 import { IPromiseEventHandler } from "./IPromiseEventHandler";
 import { PromiseEventList } from "./PromiseEventList";

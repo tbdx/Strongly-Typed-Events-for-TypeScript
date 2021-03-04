@@ -1,4 +1,4 @@
-import { IEventManagement } from "ste-core";
+import { IEventManagement } from "@tobydux/ste-core";
 
 /**
  * Interface for event handlers.

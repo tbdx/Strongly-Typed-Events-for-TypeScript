@@ -1,5 +1,5 @@
 
-import { HandlingBase } from "ste-core"
+import { HandlingBase } from "@tobydux/ste-core"
 import { IEventHandling } from "./IEventHandling";
 import { IEventHandler } from "./IEventHandler";
 import { EventList } from "./EventList";

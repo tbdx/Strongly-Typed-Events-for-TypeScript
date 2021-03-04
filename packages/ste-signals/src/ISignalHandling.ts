@@ -1,4 +1,4 @@
-import { IBaseEventHandling } from "ste-core";
+import { IBaseEventHandling } from "@tobydux/ste-core";
 import { ISignalHandler } from "./ISignalHandler";
 
 /**

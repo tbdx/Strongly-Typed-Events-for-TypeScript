@@ -1,4 +1,4 @@
-import { DispatcherBase, DispatchError, IPropagationStatus } from "ste-core";
+import { DispatcherBase, DispatchError, IPropagationStatus } from "@tobydux/ste-core";
 import { IEvent } from "./IEvent";
 import { IEventHandler } from "./IEventHandler";
 

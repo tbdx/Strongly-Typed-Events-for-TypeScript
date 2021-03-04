@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/KeesCBakker/Strongly-Typed-Events-for-TypeScript#readme",
   "devDependencies": {
-    "@tobydux/ste-core": "^2.0.9",
-    "@tobydux/ste-events": "^2.0.9",
-    "@tobydux/ste-promise-events": "^2.0.9",
-    "@tobydux/ste-promise-signals": "^2.0.9",
-    "@tobydux/ste-promise-simple-events": "^2.0.9",
-    "@tobydux/ste-signals": "^2.0.9",
-    "@tobydux/ste-simple-events": "^2.0.9",
-    "@tobydux/strongly-typed-events": "^2.0.9",
+    "@tobydux/ste-core": "2.0.9",
+    "@tobydux/ste-events": "2.0.9",
+    "@tobydux/ste-promise-events": "2.0.9",
+    "@tobydux/ste-promise-signals": "2.0.9",
+    "@tobydux/ste-promise-simple-events": "2.0.9",
+    "@tobydux/ste-signals": "2.0.9",
+    "@tobydux/ste-simple-events": "2.0.9",
+    "@tobydux/strongly-typed-events": "2.0.9",
     "@types/node": "^14.14.22",
     "del-cli": "^3.0.1",
     "webpack": "^5.15.0",
@@ -40,5 +40,5 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "gitHead": "6961f82cd13ae8034a06d0fb62ab9c675bd2985c"
+  "gitHead": "4695a31e1e90865e83ba52dccb3ee9cd6ddc32f3"
 }
