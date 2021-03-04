@@ -1,5 +1,5 @@
 {
-  "name": "ste-core",
+  "name": "@tobydux/ste-core",
   "version": "2.0.9",
   "description": "Core files for the Strongly Typed Events project.",
   "main": "dist/index.js",
@@ -7,13 +7,8 @@
   "scripts": {
     "test": "npm run mocha --recursive test/**/*.ts --exit",
     "mocha": "mocha -r ts-node/register",
-    "build": "del-cli dist & tsc",
-    "prepublishOnly": "npm run build & npm test",
-    "postpublish": "git push origin --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeesCBakker/Strongly-Typed-Events-for-TypeScript.git"
+    "build": "tsc",
+    "prepublishOnly": "npm run build & npm test"
   },
   "keywords": [
     "events",

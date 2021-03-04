@@ -1,5 +1,5 @@
 {
-  "name": "ste-signals",
+  "name": "@tobydux/ste-signals",
   "version": "2.0.9",
   "description": "Add the power of Signals to your projects. They are the most bare bones implementation of an event.",
   "main": "dist/index.js",
@@ -7,13 +7,8 @@
   "scripts": {
     "test": "npm run mocha --recursive test/**/*-test.ts --exit",
     "mocha": "mocha -r ts-node/register",
-    "build": "del-cli dist & tsc",
-    "prepublishOnly": "npm run build & npm test",
-    "postpublish": "git push origin --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeesCBakker/Strongly-Typed-Events-for-TypeScript.git"
+    "build": "tsc",
+    "prepublishOnly": "npm run build & npm test"
   },
   "keywords": [
     "signals",
@@ -44,7 +39,7 @@
     "node": ">=4.2.4"
   },
   "dependencies": {
-    "ste-core": "^2.0.9"
+    "@tobydux/ste-core": "2.0.9"
   },
   "gitHead": "6961f82cd13ae8034a06d0fb62ab9c675bd2985c"
 }
